@@ -54,4 +54,5 @@ function checkAnswer1(answer) {
     }
     result.textContent = ``;
     result.style.color = 'green';
+    total = 0;
  }
