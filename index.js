@@ -41,6 +41,9 @@ function showResult() {
 }
 
 function reload() {
+    total = 0;
+    ans1 = false;
+    ans2 = false;
     const result = document.getElementById('result');
     const btn1 = document.getElementsByClassName('quiz-container1')[0].getElementsByTagName("button");
     const btn2 = document.getElementsByClassName('quiz-container2')[0].getElementsByTagName("button");
@@ -54,8 +57,4 @@ function reload() {
     }
     result.textContent = ``;
     result.style.color = 'green';
-    total = 0;
-    ans2 = false;
-    ans2 = false;
-
 }
