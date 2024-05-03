@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <title>workshop fullstack</title>
+</head>
+
+<body style="text-align: -webkit-center; background-color: #dcf3dd;">
+    <h1> EasyQuiz </h1>
+    <br>
+    <div class="quiz-container1">
+        <h1></h1>
+        <p id="question">ข้อที่ 1). PIM ย่อมาจากอะไร ?</p>
+        <button id="a" class="button" onclick="checkAnswer1('a')">A) พีไอเอ็ม</button>
+        <button id="b" class="button" onclick="checkAnswer1('b')">B) ปิ๋ม</button>
+        <button id="c" class="button" onclick="checkAnswer1('c')">C) พิม</button>
+        <button id="d" class="button" onclick="checkAnswer1('d')">D) ภีม</button>
+    </div> 
+    <br>
+    <div class="quiz-container2">
+        <h1></h1>
+        <p id="question">ข้อที่ 2). gosoft สถานที่ทำงานอยู่ที่ไหน ?</p>
+        <button id="a" class="button" onclick="checkAnswer2('a')">A) ปทุมธานี</button>
+        <button id="b" class="button" onclick="checkAnswer2('b')">B) พังงา</button>
+        <button id="c" class="button" onclick="checkAnswer2('c')">C) พิจิตร</button>
+        <button id="d" class="button" onclick="checkAnswer2('d')">D) กทม</button>
+    </div>
+    <br>
+    <div class="result-container">
+        <h3>ผลคะแนน</h3><h1 id="result"></h1>
+        <button id="btnResult" class="button" onclick="reload()">ลองใหม่อีกครั้ง</button>
+    </div>
+    <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
